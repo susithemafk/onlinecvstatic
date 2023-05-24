@@ -10,8 +10,8 @@ custom_header.appendChild(header_container)
 const homeLink = document.createElement('a')
 const projectsLink = document.createElement('a')
 
-homeLink.href = "../../index.html" 
-projectsLink.href = "../../projects.html"
+homeLink.href = "../" 
+projectsLink.href = "../projects.html"
 
 // text in links
 const homeLinkText = document.createElement('h2')
