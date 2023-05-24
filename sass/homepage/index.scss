@@ -14,6 +14,28 @@
         transform: scale(1.2);
     }
 }
+
+.techicons {
+    justify-content: flex-end; 
+
+    @media (max-width: $lg) {
+        justify-content: center;
+
+        img {
+            width: auto; 
+            height: 100px;
+        }
+    } 
+
+    &.second {
+        img {
+            @media (max-width: $lg) {
+                height: 65px;
+            }
+        }
+    }
+}
+
 .linkIcon {
     cursor: pointer; 
     transition: transform 0.1s ease-out; 

@@ -2883,6 +2883,24 @@ button.primary:disabled {
   transform: scale(1.2);
 }
 
+.techicons {
+  justify-content: flex-end;
+}
+@media (max-width: 992px) {
+  .techicons {
+    justify-content: center;
+  }
+  .techicons img {
+    width: auto;
+    height: 100px;
+  }
+}
+@media (max-width: 992px) {
+  .techicons.second img {
+    height: 65px;
+  }
+}
+
 .linkIcon {
   cursor: pointer;
   transition: transform 0.1s ease-out;

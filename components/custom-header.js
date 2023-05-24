@@ -17,8 +17,8 @@ class CustomHeader extends HTMLElement {
         const homeLink = document.createElement('a')
         const projectsLink = document.createElement('a')
 
-        homeLink.href = "/index.html" 
-        projectsLink.href = "/projects.html"
+        homeLink.href = "../../index.html" 
+        projectsLink.href = "../../projects.html"
 
         // text in links
         const homeLinkText = document.createElement('h2')
