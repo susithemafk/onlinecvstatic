@@ -1,0 +1,28 @@
+
+// $primary: black; 
+$secondary: gray; 
+
+
+$darkgray: #1b1b1b; 
+$gray: #707070; 
+
+$primary: #FFF700; 
+$yellow: #FFF700; 
+$red: #FE0000; 
+
+$lightgray: #F2F2F5; 
+
+$md: 767px;  
+$lg: 992px;  
+$sm: 576px; 
+$xl: 1200px;
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}

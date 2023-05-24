@@ -1,0 +1,32 @@
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.75rem; 
+    min-width: 125px; 
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer; 
+    position: relative; 
+    padding: 12px 40px;
+
+}
+  
+button.primary {
+    background-color: $primary;
+    color: black !important; 
+    font-weight: 700; 
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    transition: box-shadow 0.4s, transform 0.3s; 
+
+    &:hover {
+        box-shadow: none; 
+        transform: scale(1.075); 
+    }
+
+    &:disabled {
+        color: $primary; 
+        background-color: darken($color: $primary, $amount: 15); 
+    }
+}

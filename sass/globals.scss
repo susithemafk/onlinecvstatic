@@ -1,0 +1,23 @@
+h1 {
+    @extend .display-5;  
+    @extend .fw-800;
+}
+
+h2 {
+    @extend .fs-1;  
+    @extend .fw-800;
+}
+h3 {
+    @extend .fs-4;  
+    @extend .fw-700;
+}
+
+p {
+    font-family: "Segoe UI", Arial, sans-serif; 
+    @extend .text-gray; 
+    @extend .fs-5;
+}
+
+header {
+    background-color: #980000; 
+}

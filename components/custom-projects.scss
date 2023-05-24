@@ -1,0 +1,67 @@
+.projects {
+    .project {
+        box-shadow: 0 5px 35px rgba(0,0,0,0.12); 
+        border-radius: 15px; 
+        overflow: hidden; 
+
+        .imgWrapper {
+            height: 100%; 
+            width: 100%;
+            position: relative; 
+            height: 400px; 
+            cursor: crosshair; 
+
+            &::before {
+                content: ""; 
+                position: absolute; 
+                height: 100%; 
+                width: 100%; 
+                background-color: rgba(0,0,0,0); 
+                z-index: 1; 
+                transition: background-color 0.5s; 
+            } 
+
+            &::after {
+                content: attr(data-title);  
+                color: white; 
+                font-weight: 700; 
+                font-size: 2rem;
+                position: absolute; 
+                z-index: 100; 
+                visibility: hidden;
+                opacity: 0; 
+                // transition: opacity 0.25s, visibility 0.25s;
+                transition: opacity 0.25s; // else it glitches
+                // top: var(--y); 
+                // left: var(--x); 
+                // transform: translate(-50%, -120%); 
+                padding: 1.5rem; 
+            }
+            
+            img {
+                position: absolute;
+                height: 100%; 
+                min-width: 100%; 
+                width: 100%;
+                object-fit: cover; 
+                object-position: 50% 0%; 
+                background-color: beige; 
+                inset: 0; 
+                transition: object-position 2s ease-out; 
+            }
+
+            &:hover { 
+                img {
+                    object-position: 50% 100%;
+                } 
+                &::before {
+                    background-color: rgba(0,0,0,0.7); 
+                } 
+                &::after {
+                    visibility: visible; 
+                    opacity: 1; 
+                }
+            } 
+        } 
+    }
+}
