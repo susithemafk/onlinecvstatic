@@ -3,33 +3,33 @@ const count = custom_projects.getAttribute("count")
 
 const projects = [
     {
-        src: "../assets/projects/susithechain/hero.jpg", 
+        src: "assets/projects/susithechain/hero.jpg", 
         alt: 'susithechain', 
-        link: '/projects/susithechain.html', 
+        link: 'projects/susithechain.html', 
         title: 'susithechain'
     }, 
     {
-        src: "../assets/projects/skatespotter/hero.webp", 
+        src: "assets/projects/skatespotter/hero.webp", 
         alt: 'skatespotter', 
-        link: '/projects/skatespotter.html', 
+        link: 'projects/skatespotter.html', 
         title: 'skatespotter'
     }, 
     {
-        src: "../assets/projects/teachablewithsimpsons/hero.webp", 
+        src: "assets/projects/teachablewithsimpsons/hero.webp", 
         alt: 'teachablewithsimpsons', 
-        link: '/projects/teachablewithsimpsons.html', 
+        link: 'projects/teachablewithsimpsons.html', 
         title: 'teachablewithsimpsons' 
     }, 
     {
-        src: "../assets/projects/podlahy-sucharda/services.webp", 
+        src: "assets/projects/podlahy-sucharda/services.webp", 
         alt: 'podlahysucharda', 
-        link: '/projects/podlahy-sucharda.html', 
+        link: 'projects/podlahy-sucharda.html', 
         title: 'Podlahy Sucharda'
     }, 
     {
-        src: "../assets/projects/sh-eden/hero_long.webp", 
+        src: "assets/projects/sh-eden/hero_long.webp", 
         alt: 'sheden', 
-        link: '/projects/sh-eden.html', 
+        link: 'projects/sh-eden.html', 
         title: 'SH Eden'
     }
 ]
